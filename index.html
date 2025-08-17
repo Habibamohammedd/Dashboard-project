@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2><i class="fa-solid fa-chess-board"></i> Dashboard</h2>
+      <div class="sidebar-section">
+        <a href="#"><i class="fas fa-home"></i> <span>Home</span></a>
+        <a href="#"><i class="fas fa-user"></i> <span>Profile</span></a>
+        <a href="#"><i class="fas fa-envelope"></i> <span>Messages</span></a>
+        <a href="#"><i class="fas fa-history"></i> <span>History</span></a>
+        <a href="#"><i class="fas fa-tasks"></i> <span>Tasks</span></a>
+        <a href="#"><i class="fas fa-users"></i> <span>Communities</span></a>
+      </div>
+      <div class="sidebar-section">
+        <a href="#"><i class="fas fa-cog"></i> <span>Settings</span></a>
+        <a href="#"><i class="fas fa-question-circle"></i> <span>Support</span></a>
+        <a href="#"><i class="fas fa-shield-alt"></i> <span>Privacy</span></a>
+      </div>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main">
+      <!-- Topbar -->
+      <div class="topbar">
+        <!-- Search Section -->
+        <div class="search-section">
+          <input type="text" placeholder="Search..." />
+          <div class="search-user">
+            <img src="img/avatar-icon.avif" alt="user" />
+            <p>Hello</p>
+            <span>Morgan Oakley</span>
+          </div>
+        </div>
+
+        <!-- User Section -->
+        <div class="user-section">
+          <div class="user">
+            <img src="img/avatar-icon.avif" alt="user" />
+            <span>Morgan Oakley</span>
+          </div>
+          <div class="buttons">
+            <button class="new"><i class="fas fa-plus"></i> New</button>
+            <button class="upload"><i class="fas fa-upload"></i> Upload</button>
+            <button class="share"><i class="fas fa-share"></i> Share</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <!-- Projects Section -->
+        <div>
+          <h2 class="section-title">Your Projects</h2>
+          <div class="projects">
+            <div class="card">
+              <h3>Super Cool Project</h3>
+              <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+              <div class="icons">
+                <span><i class="far fa-star"></i></span>
+                <span><i class="far fa-eye"></i></span>
+                <span><i class="fas fa-share-nodes"></i></span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Less Cool Project</h3>
+              <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et.</p>
+              <div class="icons">
+                <span><i class="far fa-star"></i></span>
+                <span><i class="far fa-eye"></i></span>
+                <span><i class="fas fa-share-nodes"></i></span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Impossible App</h3>
+              <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+              <div class="icons">
+                <span><i class="far fa-star"></i></span>
+                <span><i class="far fa-eye"></i></span>
+                <span><i class="fas fa-share-nodes"></i></span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Easy Peasy App</h3>
+              <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+              <div class="icons">
+                <span><i class="far fa-star"></i></span>
+                <span><i class="far fa-eye"></i></span>
+                <span><i class="fas fa-share-nodes"></i></span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Ad Blocker</h3>
+              <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+              <div class="icons">
+                <span><i class="far fa-star"></i></span>
+                <span><i class="far fa-eye"></i></span>
+                <span><i class="fas fa-share-nodes"></i></span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Money Maker</h3>
+              <p>Praesent convallis libero quis congue elementum. Nunc et faucibus sapien. Integer ac quam in enim.</p>
+              <div class="icons">
+                <span><i class="far fa-star"></i></span>
+                <span><i class="far fa-eye"></i></span>
+                <span><i class="fas fa-share-nodes"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="rightbar">
+          <h2 class="section-title">Announcements</h2>
+          <div class="box top-box">
+            <div class="announcement-item">
+              <strong>Site Maintenance</strong>
+              <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac...</p>
+            </div>
+            <hr />
+            <div class="announcement-item">
+              <strong>Community Share Day</strong>
+              <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero...</p>
+            </div>
+            <hr />
+            <div class="announcement-item">
+              <strong>Updated Privacy Policy</strong>
+              <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum...</p>
+            </div>
+          </div>
+
+          <h2 class="section-title">Trending</h2>
+          <div class="box bottom-box">
+            <p>
+              <img src="img/avatar2.png" alt="Tegan" class="trending-user">
+              @tegan - World Peace Builder
+            </p>
+            <p>
+              <img src="img/avatar3.jpg" alt="Morgan" class="trending-user">
+              @morgan - Super Cool Project
+            </p>
+            <p>
+              <img src="img/avatar-icon.avif" alt="Kendall" class="trending-user">
+              @kendall - Life Changing App
+            </p>
+            <p>
+              <img src="img/avatar3.jpg" alt="Alex" class="trending-user">
+              @alex - No Traffic Maker
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
